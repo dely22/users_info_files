@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>full_name</td>
+            <br>
+            <td>user_name</td>
+            <br>
+            <td>email</td>
+            <br>
+            <td>image</td>
+            <br>
+            <td> user_cv</td>
+            <br>
+        </tr>
+    
+        <tr>
+            <td><%= info.full_name %> </td>
+            <td><%= info.username %></td>
+            <td><%= info.email %> </td>
+            <td> <img src="<%= info.user_image %>"></td>
+            <td><%= info.cv_file %></td>
+        </tr>
+    </table>
+</body>
+</html>
